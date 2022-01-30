@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="animation_speed_english">
+        <item>Fast Animation</item>
+        <item>Normal Animation</item>
+        <item>Slow Animation</item>
+</string-array>
+
+<string-array name="animation_speed_chinese">
+        <item>快速动画</item>
+        <item>常速动画</item>
+        <item>慢速动画</item>
+</string-array>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<ScrollView android:id="@+id/game_stat"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+    <LinearLayout
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+    <TableLayout android:id="@+id/game_stats_view"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:padding="2dip"
+    		android:gravity="center">
+    		
+    		<TableRow android:id="@+id/game_stats_row">
+    	
+		    	<TextView android:id="@+id/game_stats_cell"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="fill_parent" 
+			    android:padding="6dip"
+			    android:text="Player\nId"
+			    />
+			    <TextView android:layout_width="wrap_content"
+		    	android:layout_height="fill_parent" 
+			    android:padding="6dip"
+			    android:text="Overall\nScore"
+			    />
+			    <TextView android:layout_width="wrap_content"
+		    	android:layout_height="fill_parent" 
+			    android:padding="6dip"
+			    android:text="Points in\nThis Deal"
+			    />
+			</TableRow>
+			
+			<TableRow>    
+			    <TextView android:id="@+id/game_stats_cell"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" 
+                android:padding="6dip"
+                android:text="玩家编号"
+                />
+                <TextView android:layout_width="wrap_content"
+                android:layout_height="fill_parent" 
+                android:padding="6dip"
+                android:text="总分"
+                />
+                <TextView android:layout_width="wrap_content"
+                android:layout_height="fill_parent" 
+                android:padding="6dip"
+                android:text="这手得分"
+                />
+      			
+			</TableRow>
+	</TableLayout>
+	<TextView android:id="@+id/tractor_cards_multiplier_view"
+				android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content" 
+			    android:padding="5dip"
+			    android:text="@string/tractor_cards_multiplication_english"
+			    />
+	<LinearLayout android:id="@+id/tractor_cards_view"
+		android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+		android:orientation="vertical"/>
+    
+	</LinearLayout>
+</ScrollView>

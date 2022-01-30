@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="num_players_english">Number of\nPlayers</string>
+    <string name="num_players_chinese">玩家总数</string>
+    <string name="app_name">Tractor for Android</string>
+<string name="num_decks_english">Number of\nDecks</string>
+<string name="num_decks_chinese">牌数量</string>
+<string name="num_ais_english">Number of\nAI Players</string>
+<string name="num_ais_chinese">电脑玩家数</string>
+<string name="start_game_english">Start Game!</string>
+<string name="start_game_chinese">开始游戏!</string>
+<string name="new_game_english">New Game</string>
+<string name="new_game_chinese">新游戏</string>
+<string name="save_game_english">Save Game</string>
+<string name="save_game_chinese">存储进度</string>
+<string name="load_game_english">Load Game</string>
+<string name="load_game_chinese">读取进度</string>
+<string name="check_score_english">Check Stats</string>
+<string name="check_score_chinese">查看数据</string>
+<string name="new_deal_english">New Deal</string>
+<string name="new_deal_chinese">发牌</string>
+<string name="play_cards_english">Play</string>
+<string name="play_cards_chinese">出牌</string>
+<string name="swap_cards_english">Swap</string>
+<string name="swap_cards_chinese">埋牌</string>
+<string name="create_game_english">Create Game</string>
+<string name="create_game_chinese">建立新游戏</string>
+<string name="join_game_english">Join Game</string>
+<string name="join_game_chinese">加入游戏</string>
+
+
+<string name="declared_suit">Declared Suit</string>
+<string name="played_cards">Played Cards</string>
+<string name="expand_english">∨ Show cards ∨</string>
+<string name="collapse_english">∧ Hide cards ∧</string>
+<string name="expand_chinese">∨展示出的牌 ∨</string>
+<string name="collapse_chinese">∧ 收起出的牌 ∧</string>
+
+
+<string name="server_address_english">Server\nAddress</string>
+<string name="server_address_chinese">服务器地址</string>
+<string name="game_id_english">Game Id</string>
+<string name="game_id_chinese">游戏名称</string>
+<string name="default_server_address">localhost</string>
+<string name="remote_server_address">games.maqicheng.com</string>
+
+
+<string name="tractor_cards_multiplication_english">Tractor Cards:  ×</string>
+<string name="tractor_cards_multiplication_chinese">底牌:  ×</string>
+<string name="alert_dialog_ok_english">OK</string>
+<string name="alert_dialog_cancel_english">Cancel</string>
+
+<string name="preferred_player_id_english">Preferred\nPlayer Id</string>
+<string name="preferred_player_id_chinese">玩家编号首选</string>
+<string name="auto_select_cards_english">Auto Select Cards</string>
+<string name="auto_select_cards_chinese">自动选牌</string>
+<string name="game_option">Options/选项</string>
+<string name="game_instruction_english">Instruction</string>
+<string name="game_instruction_chinese">游戏说明</string>
+</resources>

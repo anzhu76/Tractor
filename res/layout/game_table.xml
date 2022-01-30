@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout android:id="@+id/header_view"
+ 	   		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+
+    		
+    		<Button android:layout_width="130dip"
+    			android:layout_height="wrap_content"
+    			android:id="@+id/game_view_toggle_button"
+    			android:layout_gravity="left"
+    			android:textColor="#ff777777"
+    			android:text="@string/collapse_english"/>
+    			
+    			                                 
+            <TextView android:id="@+id/declare_suit"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+            />
+
+    		<Button android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:id="@+id/game_action_button"
+    			android:layout_gravity="right"
+    			android:text="@string/play_cards_english"/>
+
+    
+    </LinearLayout>
+	     	   
+ 	<LinearLayout android:id="@+id/declaration_view"
+ 	    		android:layout_height="wrap_content"
+    			android:layout_width="fill_parent"
+    			android:orientation="horizontal"
+    			/>
+    			 			
+	<ScrollView android:id="@+id/game_view"
+		android:orientation="vertical"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent">
+		<LinearLayout android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+			android:orientation="vertical">
+
+			<LinearLayout android:id="@+id/game_display"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+				android:orientation="horizontal"/>	
+			<View android:layout_width="fill_parent" 
+				android:layout_height="4dip" 
+				android:background="#00000000" />   
+    					
+		</LinearLayout>				
+	</ScrollView>
+	
+	<View android:layout_width="fill_parent" 
+  		android:layout_height="2dip" 
+  		android:background="#00000000" />  
+	
+	<View android:layout_width="fill_parent" 
+  		android:layout_height="2dip" 
+  		android:background="#ff666666" />    
+  		
+  	<View android:layout_width="fill_parent" 
+  		android:layout_height="2dip" 
+  		android:background="#00000000" />  
+
+<ScrollView 
+	android:id="@+id/game_table"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+	<LinearLayout
+    		android:orientation="vertical"
+    		android:layout_height="fill_parent"
+    		android:layout_width="fill_parent">
+    	
+ 		
+    		    			
+    <LinearLayout android:id="@+id/hand_summary_view"
+ 	    		android:layout_height="wrap_content"
+    			android:layout_width="fill_parent"
+    			android:orientation="horizontal"
+    			android:gravity="top"/>
+    
+
+		<LinearLayout android:id="@+id/game_hand"
+    		android:orientation="horizontal"
+    		android:layout_height="fill_parent"
+    		android:layout_width="fill_parent">
+    	
+    		<LinearLayout  android:id="@+id/col0"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:gravity="center"
+    			android:layout_weight="1"
+    			android:orientation="vertical">
+    			<ImageView android:id="@+id/trump_suit_image"
+    				android:adjustViewBounds="true"
+    				android:layout_width="wrap_content"
+         		   	android:layout_height="wrap_content"
+    				android:src="@drawable/joker_bg"/>"
+    			<LinearLayout android:id="@+id/trump_suit_col"
+    				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+    				android:orientation="vertical"/>
+    		</LinearLayout>
+    	   
+   		 	<LinearLayout  android:id="@+id/col1"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:gravity="center"
+    			android:layout_weight="1"
+    			android:orientation="vertical">
+    			<ImageView android:id="@+id/suit1_image"
+    				android:adjustViewBounds="true"
+    				android:layout_width="wrap_content"
+         		   	android:layout_height="wrap_content"
+    				android:src="@drawable/spade_suit"/>
+    			<LinearLayout android:id="@+id/suit1_col"
+    				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+    				android:orientation="vertical"/>
+    		</LinearLayout>
+    			
+    		<LinearLayout  android:id="@+id/col2"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:gravity="center"
+    			android:layout_weight="1"
+    			android:orientation="vertical">
+    			<ImageView android:id="@+id/suit2_image"
+    				android:adjustViewBounds="true"
+    				android:layout_width="wrap_content"
+         		   	android:layout_height="wrap_content"
+   		 			android:src="@drawable/heart_suit"/>
+   		 		<LinearLayout  android:id="@+id/suit2_col"
+    				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+    				android:orientation="vertical"/>	 			
+    		</LinearLayout>
+    	
+   		   	<LinearLayout  android:id="@+id/col3"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:gravity="center"
+    			android:layout_weight="1"
+   		 		android:orientation="vertical">
+   		 		<ImageView android:id="@+id/suit3_image"
+    				android:adjustViewBounds="true"
+    				android:layout_width="wrap_content"
+         		   	android:layout_height="wrap_content"
+    				android:src="@drawable/club_suit"/>
+   		 		<LinearLayout  android:id="@+id/suit3_col"
+    				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+    				android:orientation="vertical"/>	 
+        		</LinearLayout>
+    		
+    		<LinearLayout android:id="@+id/col4"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:gravity="center"
+    			android:layout_weight="1"
+   		 		android:orientation="vertical">
+   		 		<ImageView android:id="@+id/suit4_image"
+    				android:adjustViewBounds="true"
+    				android:layout_width="wrap_content"
+         		   	android:layout_height="wrap_content"
+    				android:src="@drawable/diamond_suit"/>
+    			<LinearLayout  android:id="@+id/suit4_col"
+    				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+
+    				android:orientation="vertical"/>	 
+    		</LinearLayout>
+    	</LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
